@@ -1,5 +1,5 @@
 section {
-  width: 70vw;
+  width: 60vw;
 }
 
 .top_section {
@@ -11,12 +11,16 @@ section {
 }
 
 .mid_section {
-  height: 20vh;
+  height: 17vh;
 
   .password_area {
     display: flex;
     width: 100%;
     height: 100%;
+    align-items: center;
+    box-shadow: 1px 4px 20px 0px rgba(135, 135, 135, 0.33);
+    border-bottom: rgb(0, 218, 0) 10px solid;
+    padding: 0% 5%;
 
     .password_content_pw {
       width: 80%;

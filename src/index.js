@@ -16,6 +16,8 @@ function generator() {
   document.getElementById("password_field").value = passGenerator();
 }
 
+window.onload = generator();
+
 // COPY TO CLIPBOARD
 function copyClip() {
   var copyText = document.getElementById("password_field");

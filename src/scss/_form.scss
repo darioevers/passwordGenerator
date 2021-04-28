@@ -1,28 +1,26 @@
 input {
-  width: 70%;
-  height: 70%;
+  width: 90%;
+  height: 100%;
   border-color: none;
-  border-top: none;
-  border-right: none;
-  border-left: none;
-  border-bottom: 1px solid rgb(179, 179, 179);
-  margin-right: -5px;
-}
-
-button {
-  height: 29%;
-  width: 14%;
-  background-color: rgb(253, 207, 0);
   border: none;
-  color: white;
-  font-weight: 900;
-  font-size: 0.8em;
+  margin-right: -5px;
+  font-size: 3rem;
+  color: rgb(82, 82, 82);
 }
-
-button:focus {
+input:focus {
   outline: none;
 }
 
-.orange_font {
-  color: rgb(255, 179, 0);
+button {
+  height: 100%;
+  width: 100%;
+  border: none;
+  color: rgb(233, 66, 66);
+  font-weight: 900;
+  font-size: 2.8em;
+  background-color: transparent;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
 }
