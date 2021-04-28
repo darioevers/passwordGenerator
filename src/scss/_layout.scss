@@ -1,0 +1,42 @@
+section {
+  width: 70vw;
+}
+
+.top_section {
+  height: 30vh;
+
+  .top_header_area {
+    width: 70vw;
+  }
+}
+
+.mid_section {
+  height: 20vh;
+
+  .password_area {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    .password_content_pw {
+      width: 80%;
+    }
+    .password_content_copy {
+      width: 10%;
+    }
+    .password_content_generate {
+      width: 10%;
+    }
+  }
+}
+
+h1,
+h2,
+h3 {
+  align-text: center;
+  justify-text: center;
+}
+
+h1 {
+  color: red;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TO-DO List</title>
+    <title>Password Generator</title>
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -12,16 +12,50 @@
       rel="stylesheet"
     />
   </head>
+  <script
+    src="https://kit.fontawesome.com/e6bb2b1e79.js"
+    crossorigin="anonymous"
+  ></script>
   <body>
-    <div class="container">
-      <div class="top_section">
-        <div class="top_section_inside">
-          <h3>PASS<span class="orange_font">WORD</span> GENERATOR</h3>
-          <input type="text" id="password_field" name="result" readonly value="" />
-        <input type="button" value="Generate" onclick="generator()" />
+    <section class="top_section">
+      <div class="top_header_area">
+        <div class="header_content_intro">
+          <h4>Password Generator Tool</h4>
+        </div>
+        <div class="header_content_title">
+          <h1>Generate a strong and secure password</h1>
+        </div>
+        <div class="header_content_desc">
+          <h3>
+            Use this online password generator to instantly create a secure,
+            random password.
+          </h3>
+        </div>
       </div>
-    </div>
-
+    </section>
+    <!-- CONTAINER FOR PASSWORD -->
+    <section class="mid_section">
+      <div class="password_area">
+        <div class="password_content_pw">
+          <input
+            type="text"
+            id="password_field"
+            name="result"
+            readonly
+            value=""
+          />
+        </div>
+        <div class="password_content_copy">
+          <button onclick="copyClip()"><i class="fas fa-clone"></i></button>
+        </div>
+        <div class="password_content_generate">
+          <button type="button" value="Generate" onclick="generator()">
+            <i class="fas fa-sync-alt"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+    <div class="password_custom_area"></div>
     <script src="./index.js"></script>
   </body>
 </html>
