@@ -28,11 +28,16 @@
   margin-bottom: 2%;
 }
 
-.body {
+body {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  background-color: #61c0ff;
+}
+
+.main_flex {
+  display: flex;
 }
 
 input {
