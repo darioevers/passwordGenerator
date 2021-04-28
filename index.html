@@ -17,38 +17,44 @@
     crossorigin="anonymous"
   ></script>
   <body>
-    <div class="top_header_area">
-      <div class="header_content_intro">
-        <h4>Password Generator Tool</h4>
+    <section class="top_section">
+      <div class="top_header_area">
+        <div class="header_content_intro">
+          <h4>Password Generator Tool</h4>
+        </div>
+        <div class="header_content_title">
+          <h1>Generate a strong and secure password</h1>
+        </div>
+        <div class="header_content_desc">
+          <h3>
+            Use this online password generator to instantly create a secure,
+            random password.
+          </h3>
+        </div>
       </div>
-      <div class="header_content_title">
-        <h1>Generate a strong and secure password</h1>
-      </div>
-      <div class="header_content_desc">
-        <h3>
-          Use this online password generator to instantly create a secure,
-          random password.
-        </h3>
-      </div>
-    </div>
+    </section>
     <!-- CONTAINER FOR PASSWORD -->
-    <div class="password_area">
-      <div class="password_content_pw">
-        <input
-          type="text"
-          id="password_field"
-          name="result"
-          readonly
-          value=""
-        />
+    <section class="mid_section">
+      <div class="password_area">
+        <div class="password_content_pw">
+          <input
+            type="text"
+            id="password_field"
+            name="result"
+            readonly
+            value=""
+          />
+        </div>
+        <div class="password_content_copy">
+          <button onclick="copyClip()"><i class="fas fa-clone"></i></button>
+        </div>
+        <div class="password_content_generate">
+          <button type="button" value="Generate" onclick="generator()">
+            <i class="fas fa-sync-alt"></i>
+          </button>
+        </div>
       </div>
-      <div class="password_content_copy">
-        <button onclick="copyClip()"><i class="fas fa-clone"></i></button>
-      </div>
-      <div class="password_content_generate">
-        <input type="button" value="Generate" onclick="generator()" />
-      </div>
-    </div>
+    </section>
     <div class="password_custom_area"></div>
     <script src="./index.js"></script>
   </body>
