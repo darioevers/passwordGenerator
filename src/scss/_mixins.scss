@@ -1,0 +1,43 @@
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+// FONT MIXINS
+
+@mixin fontHeading {
+  font-family: "Oxygen", sans-serif;
+}
+
+// CONTAINER MIXINS
+
+@mixin containerSize {
+  height: 60vh;
+  width: 30vw;
+}
+
+@mixin containerPosition {
+  margin: 0 auto;
+  margin-top: 20vh;
+}
+
+@mixin containerColors {
+  background-color: rgba(245, 245, 245, 0.808);
+}
+
+@mixin containerShape {
+  border-radius: 10px;
+}
+
+// INNER CONTAINER MIXINS
+
+@mixin topContainerPositions {
+  //   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 20%;
+  border-bottom: solid 2px white;
+}

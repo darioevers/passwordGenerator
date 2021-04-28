@@ -17,19 +17,11 @@
       <div class="top_section">
         <div class="top_section_inside">
           <h3>PASS<span class="orange_font">WORD</span> GENERATOR</h3>
-          <input
-            type="tex"
-            name="userText"
-            id="userData"
-            placeholder="Enter text first"
-          />
-          <button id="userDataButton" onclick="addToList()">Add</button>
-        </div>
-      </div>
-      <div>
-        <ul class="result"></ul>
+          <input type="text" id="password_field" name="result" readonly value="" />
+        <input type="button" value="Generate" onclick="generator()" />
       </div>
     </div>
+
     <script src="./index.js"></script>
   </body>
 </html>
