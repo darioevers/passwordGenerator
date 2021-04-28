@@ -1,3 +1,4 @@
+// PASSWORD GENERATION
 const passGenerator = () => {
   let password = "";
   var length = 10;
@@ -10,10 +11,12 @@ const passGenerator = () => {
   return password;
 };
 
+//  GENERATOR OUTPUT FUCTION
 function generator() {
   document.getElementById("password_field").value = passGenerator();
 }
 
+// COPY TO CLIPBOARD
 function copyClip() {
   var copyText = document.getElementById("password_field");
   copyText.select();
